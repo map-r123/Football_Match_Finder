@@ -110,7 +110,7 @@ def output(game):
 
 
 def API(url):
-    header = {"X-Auth-Token": "a0a6adfc1510475dbf181ea8829d930a"}
+    header = {"X-Auth-Token": "YOUR_API_KEY"}
     try:
         time.sleep(1)
         response = requests.get(url, headers=header)
